@@ -16,7 +16,15 @@ namespace Opr1_SoftwareBedrijf
 
         private void Start()
         {
+            Programmer pro1 = new Programmer("Bob", Specialty.HTML);
+            Programmer pro2 = new Programmer("Beb", Specialty.Java);
+            Programmer pro3 = new Programmer("Bab", Specialty.PHP);
+            Programmer pro4 = new Programmer("Bub");
 
+            Team t = new Team(pro1, pro2, pro3, pro4);
+
+            t.PrintAllTeamMems(t.Pteam);
+            Console.ReadKey();
         }
     }
 }
