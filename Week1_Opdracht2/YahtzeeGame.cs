@@ -9,23 +9,17 @@ namespace Opdracht3
     class YahtzeeGame
     {
         private Dice[] _dices;
-
-       /* public void Init()
-        {
-            for(int i = 0; i < _dices.Length; i++)
-            {
-                _dices[i] = new Dice();
-            }
-        }*/
+        
 
         public YahtzeeGame()
         {
+            Random r = new Random();
             _dices = new Dice[5];
 
             for (int i = 0; i < _dices.Length; i++)
             {
-                Random rand = new Random();
-                _dices[i] = new Dice(rand);
+                //int num = rand.Next(1, 6);
+                _dices[i] = new Dice(r);
             }
         }
 

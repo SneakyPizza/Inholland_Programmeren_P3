@@ -9,11 +9,12 @@ namespace Opdracht3
     class Dice
     {
         public int value;
-        Random rnd = new Random();
+        Random rnd;
 
         public Dice(Random rand)
         {
-            value = rand.Next(1, 6);
+            rnd = rand;
+            Throwdice(this);
         }
 
         public void Throwdice(Dice d)
