@@ -18,7 +18,6 @@ namespace Opdracht3
 
             for (int i = 0; i < _dices.Length; i++)
             {
-                //int num = rand.Next(1, 6);
                 _dices[i] = new Dice(r);
             }
         }
@@ -28,7 +27,6 @@ namespace Opdracht3
             for(int i = 0; i < _dices.Length; i++)
             {
                 _dices[i].Throwdice(_dices[i]);
-                //_dices[i] = new Dice()
             }
             
         }

@@ -21,7 +21,11 @@ namespace Opr1_SoftwareBedrijf
             Programmer pro3 = new Programmer("Bab", Specialty.PHP);
             Programmer pro4 = new Programmer("Bub");
 
-            Team t = new Team(pro1, pro2, pro3, pro4);
+            Team t = new Team();
+            t.AddProgrammer(pro1);
+            t.AddProgrammer(pro2);
+            t.AddProgrammer(pro3);
+            t.AddProgrammer(pro4);
 
             t.PrintAllTeamMems(t.Pteam);
             Console.ReadKey();

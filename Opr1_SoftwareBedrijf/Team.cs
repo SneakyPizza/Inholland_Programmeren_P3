@@ -9,13 +9,9 @@ namespace Opr1_SoftwareBedrijf
     public class Team
     {
         private List<Programmer> pteam;
-        public Team(Programmer pro1, Programmer pro2, Programmer pro3, Programmer pro4)
+        public Team()
         {
             pteam = new List<Programmer>();
-            AddProgrammer(pro1);
-            AddProgrammer(pro2);
-            AddProgrammer(pro3);
-            AddProgrammer(pro4);
         }
 
         
