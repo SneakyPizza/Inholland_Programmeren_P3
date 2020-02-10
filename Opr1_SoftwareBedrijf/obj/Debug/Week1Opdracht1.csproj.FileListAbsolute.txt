@@ -4,3 +4,4 @@ C:\School\Inholland\Haarlem\Programmeren3\Inholland_Programmeren_p3\Opr1_Softwar
 C:\School\Inholland\Haarlem\Programmeren3\Inholland_Programmeren_p3\Opr1_SoftwareBedrijf\obj\Debug\Week1Opdracht1.csproj.CoreCompileInputs.cache
 C:\School\Inholland\Haarlem\Programmeren3\Inholland_Programmeren_p3\Opr1_SoftwareBedrijf\obj\Debug\Opr1_SoftwareBedrijf.exe
 C:\School\Inholland\Haarlem\Programmeren3\Inholland_Programmeren_p3\Opr1_SoftwareBedrijf\obj\Debug\Opr1_SoftwareBedrijf.pdb
+C:\School\Inholland\Haarlem\Programmeren3\Inholland_Programmeren_p3\Opr1_SoftwareBedrijf\obj\Debug\Week1Opdracht1.csprojAssemblyReference.cache
