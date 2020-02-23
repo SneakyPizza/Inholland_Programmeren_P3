@@ -18,9 +18,14 @@ namespace Week2Opdracht1
             _price = price;
         }
 
-        public void Print()
+        public virtual void Print()
         {
-            Console.WriteLine("Name: {0}, by {1}, price: {2}", _name, _author, _price.ToString());
+            Console.WriteLine("[Book] Name: {0}, by {1}, price: {2}", _name, _author, _price.ToString());
         }
+
+        public string Name { get => _name;}
+        public string Author { get => _author;}
+        public double Price { get => _price;}
+
     }
 }

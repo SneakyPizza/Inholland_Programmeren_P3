@@ -23,6 +23,21 @@ namespace Week2Opdracht1
             }
         }
 
+        public void PrintPrice(double price)
+        {
+            Console.WriteLine("Total sales price: {0}", price);
+        }
+
+        public double CalcTotalPrice(List<Book> blist)
+        {
+            double p = 0;
+            foreach(Book b in blist)
+            {
+                p += b.Price;
+            }
+            return p;
+        }
+
         public List<Book> Books { get => _books; }
     }
 }
