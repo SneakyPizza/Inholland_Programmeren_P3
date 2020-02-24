@@ -22,9 +22,11 @@ namespace Week2Opdracht3
             _currentCards.Add(card);
         }
 
-        public PlayingCard GetNextCard()
+        public PlayingCard GetNextCard(List<PlayingCard> cards)
         {
-
+            PlayingCard pc = cards[0];
+            cards.Remove(pc);
+            return pc;
         }
 
         public string Name { get => _name; set => _name = value; }
