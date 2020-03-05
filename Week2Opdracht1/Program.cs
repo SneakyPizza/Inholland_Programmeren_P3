@@ -24,7 +24,7 @@ namespace Week2Opdracht1
             Book b4 = new Book("Boek 4", "Bub", 18.25);
 
             Magazine m1 = new Magazine("Spiderman", "Stan lee", 10.50, DateTime.MinValue);
-            Magazine m2 = new Magazine("Ik ken geen stripboeken", "Baapie", 4.20, DateTime.MaxValue);
+            Magazine m2 = new Magazine("Stripboek", "Persoon", 4.20, DateTime.MaxValue);
             bs.AddBook(m1);
             bs.AddBook(m2);
 

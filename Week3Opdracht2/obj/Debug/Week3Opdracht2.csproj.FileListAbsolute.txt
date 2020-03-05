@@ -1,0 +1,6 @@
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\bin\Debug\Week3Opdracht2.exe.config
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\bin\Debug\Week3Opdracht2.exe
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\bin\Debug\Week3Opdracht2.pdb
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\obj\Debug\Week3Opdracht2.csprojAssemblyReference.cache
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\obj\Debug\Week3Opdracht2.exe
+D:\Projects\School\Programmeren_p3\Inholland_Programmeren_P3\Week3Opdracht2\obj\Debug\Week3Opdracht2.pdb

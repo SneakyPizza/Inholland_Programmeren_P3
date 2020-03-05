@@ -27,9 +27,11 @@ namespace Week2Opdracht3
             war.StartNewGame();
             while (!war.EndGame())
             {
+                System.Threading.Thread.Sleep(200);
                 war.NextCard();
             }
-            //TO DO: ADD wincondition
+            Console.ReadKey();
+
         }
     }
 }
