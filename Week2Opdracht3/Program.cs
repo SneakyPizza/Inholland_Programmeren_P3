@@ -16,7 +16,20 @@ namespace Week2Opdracht3
 
         private void Start()
         {
+            Player player1 = new Player("John");
+            Player player2 = new Player("Emma");
+            WarCardGame war = new WarCardGame(player1, player2);
+            PlayTheGame(war);
+        }
 
+        private void PlayTheGame(WarCardGame war)
+        {
+            war.StartNewGame();
+            while (!war.EndGame())
+            {
+                war.NextCard();
+            }
+            //TO DO: ADD wincondition
         }
     }
 }

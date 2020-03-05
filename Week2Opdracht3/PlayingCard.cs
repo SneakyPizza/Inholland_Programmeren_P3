@@ -18,9 +18,12 @@ namespace Week2Opdracht3
             _suit = suit;
         }
 
+        public string Rank { get => _rank; }
+        public CardSuit Suit { get => _suit; }
+
         public override string ToString()
         {
-            return string.Format("{0} of {1}", _rank, _suit);
+            return string.Format("{0} of {1}", Rank, Suit);
         }
     }
 }

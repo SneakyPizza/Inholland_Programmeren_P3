@@ -14,7 +14,7 @@ namespace Week2Opdracht3
         public Player(string name)
         {
             Name = name;
-            CurrentCards = new List<PlayingCard>();
+            _currentCards = new List<PlayingCard>();
         }
 
         public void AddCard(PlayingCard card)

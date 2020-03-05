@@ -19,7 +19,7 @@ namespace Week2Opdracht3
 
         private void InitCards(List<PlayingCard> deck)
         {
-            string[] values = new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "j", "q", "k" };
+            string[] values = new string[] { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
 
             foreach (string s in values)
             {

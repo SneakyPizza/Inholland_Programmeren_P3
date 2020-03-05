@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Week2Opdracht3.CardGame">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAA=</HashCode>
+      <FileName>CardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Week2Opdracht3.DeckOfCards">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAABAAAAAABAAAABAAEAA=</HashCode>
+      <FileName>DeckOfCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Week2Opdracht3.Player">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAQAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Week2Opdracht3.PlayingCard" Collapsed="true">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayingCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Week2Opdracht3.Program">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Week2Opdracht3.WarCardGame">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAgAAAAQAAA=</HashCode>
+      <FileName>WarCardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Week2Opdracht3.CardSuit">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>CardSuit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

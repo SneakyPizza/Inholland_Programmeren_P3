@@ -10,9 +10,9 @@ namespace Week2Opdracht3
     {
         private DeckOfCards _deck;
 
-        public CardGame(DeckOfCards d)
+        public CardGame()
         {
-            Deck = d;
+            _deck = new DeckOfCards();
         }
 
         public DeckOfCards Deck { get => _deck; set => _deck = value; }
