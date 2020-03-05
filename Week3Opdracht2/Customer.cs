@@ -17,7 +17,7 @@ namespace Week3Opdracht2
             _name = name;
             _signupdate = DateTime.Now;
 
-            if(birth <= (DateTime.Now.AddYears(-8)))
+            if(birth <= (DateTime.Now.AddYears(-8)) && birth <= (DateTime.Now.AddYears(120)))
             {
                 _birth = birth;
             } else
