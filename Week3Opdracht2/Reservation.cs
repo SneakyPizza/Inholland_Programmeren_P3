@@ -21,7 +21,6 @@ namespace Week3Opdracht2
             _tickets.Add(t);
         }
 
-        internal List<Ticket> Tickets { get => _tickets; }
         public decimal TotalPrice {  get
             {
                 decimal p = 0;
@@ -41,6 +40,7 @@ namespace Week3Opdracht2
                 return p;
             } }
 
-        internal Customer Customer { get => _customer;}
+        public Customer Customer { get => _customer;}
+        public List<Ticket> Tickets { get => _tickets; }
     }
 }

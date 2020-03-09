@@ -17,10 +17,11 @@ namespace Week3Opdracht2
             _name = name;
             _signupdate = DateTime.Now;
 
-            if(birth <= (DateTime.Now.AddYears(-8)) && birth <= (DateTime.Now.AddYears(120)))
+            if (birth <= (DateTime.Now.AddYears(-8)) && birth <= (DateTime.Now.AddYears(120)))
             {
                 _birth = birth;
-            } else
+            }
+            else
             {
                 throw new ArgumentException("Incorrect birthdate", "Birthdate");
             }
@@ -30,6 +31,16 @@ namespace Week3Opdracht2
         public DateTime Birth { get => _birth; }
         public DateTime Signupdate { get => _signupdate; }
         public int Age { get => (DateTime.Today.Year - Birth.Year); }
-        public bool DiscountPrivilege { get { if ((DateTime.Today.Year - Signupdate.Year) > 5) { return true; } return false; } }
+        public bool DiscountPrivilege
+        {
+            get
+
+            {
+                return
+
+                      ((DateTime.Today.Year - Signupdate.Year) > 5);
+
+            }
+        }
     }
 }

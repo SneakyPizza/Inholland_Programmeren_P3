@@ -18,7 +18,7 @@ namespace Week3Opdracht1
         public override void Print()
         {
             //base.Print();
-            Console.WriteLine("[Magazine] Name: {0}, price: {1}, Date of Release: {2}, amount: x{3}", this.Name, this.Price.ToString(), _date,this.Count);
+            Console.WriteLine("[Magazine] Name: {0}, price: {1}, Date of Release: {2}, amount: x{3}", this.Name, this.Price.ToString(), _date.ToShortDateString(), this.Count);
         }
         public DateTime Date
         {

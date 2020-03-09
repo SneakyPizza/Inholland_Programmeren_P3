@@ -24,8 +24,9 @@ namespace Week3Opdracht2
                 //Customer test3 = new Customer("bop", (DateTime.Now.AddDays(-1000)));
                 //Customer test4 = new Customer("bip", (DateTime.Now.AddDays(1)));
 
-                Ticket t1 = new Ticket("The hobbit", 4, new DateTime(2020, 10, 6, 10, 30, 0), 10, 6);
-                Ticket t2 = new Ticket("The Bobbit", 5, new DateTime(2020, 11, 7, 10, 30, 0), 10, 16);
+                Ticket t1 = new Ticket("The Hobbit", 4, new DateTime(2020, 10, 6, 10, 30, 0), 10, 6);
+                Ticket t2 = new Ticket("The Bobbit", 5, new DateTime(2020, 11, 7, 10, 30, 0), 12, 16);
+                Ticket t3 = new Ticket("The Fobbit", 3, new DateTime(2020, 9, 4, 12, 30, 0), 16, 9);
 
                 Reservation r1 = new Reservation(test1);
                 Reservation r2 = new Reservation(test2);
@@ -37,6 +38,7 @@ namespace Week3Opdracht2
                 //Tickets
                 r1.AddTicket(t1);
                 r2.AddTicket(t2);
+                r2.AddTicket(t3);
                 //PrintTicket(t1);
                 //PrintTicket(t2);
 
@@ -55,13 +57,19 @@ namespace Week3Opdracht2
         {
             foreach(Customer c in ca)
             {
-                Console.WriteLine("{0}\n Date of Birth: {1}, \n Age: {2}, \n date of registration: {3}, \n discount: {4}. \n", c.Name, c.Birth.ToString(), c.Age.ToString(), c.Signupdate.ToString(), c.DiscountPrivilege.ToString());
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Creating {0}", c.Name);
+                Console.ResetColor();
+                Console.WriteLine("{0}: \n Date of Birth: {1}, \n Age: {2}, \n date of registration: {3}, \n discount: {4}. \n", c.Name, c.Birth.ToString(), c.Age.ToString(), c.Signupdate.ToString(), c.DiscountPrivilege.ToString());
             }
         }
 
         private void PrintTicket(Ticket t)
         {
-            Console.WriteLine("Ticket created for {0}, Room: {1}, \n Starting at: {2}, Minimum age: {3}, \n Price: {4}, discount ?: {5}", t.Name, t.RoomNum.ToString(), t.Starttime.ToShortTimeString(), t.MinAge.ToString(), t.Price.ToString(), t.Discount);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Creating {0}", t.Name);
+            Console.ResetColor();
+            Console.WriteLine("Ticket created for {0}, Room: {1}, \n Starting at: {2}, Minimum age: {3}, \n Price: {4}, discount ?: {5} \n", t.Name, t.RoomNum.ToString(), t.Starttime.ToShortTimeString(), t.MinAge.ToString(), t.Price.ToString(), t.Discount);
         }
 
         private void PrintReservation(Reservation r)
@@ -70,6 +78,7 @@ namespace Week3Opdracht2
             {
                 PrintTicket(t);
             }
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("[{0}]total price: {1} \n",r.Customer.Name , r.TotalPrice);
         }
     }
